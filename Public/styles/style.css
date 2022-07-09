@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu-background{
+    background-color: #010301 !important;
+}
+
+.text-color{
+    color: #50ef50 !important;
+}
+
+.grafic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chart{
+    margin: 10px !important;
+    width: 75% !important;
+    height: 75% !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont1{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.cont2{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.card{
+    opacity: 80%;
+    background-color: #010301;
+    color: aliceblue;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: justify;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #010301 !important;
+    color: #50ef50 !important;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-image: url(../images/fondo-1-1920x1080-dark.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
